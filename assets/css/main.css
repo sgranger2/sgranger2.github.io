@@ -289,6 +289,11 @@ input, select, textarea {
 		margin: 2.75rem 0;
 	}
 
+	#header nav ul #portfolio a {
+		padding:  0rem;
+		width: 100%;
+	}
+
 	.align-left {
 		text-align: left;
 	}
@@ -464,6 +469,10 @@ input, select, textarea {
 				}
 
 		@media screen and (max-width: 480px) {
+
+			#header nav ul #portfolio a {
+				width: 100%;
+			}
 
 			form > .fields {
 				width: calc(100% + 3rem);
